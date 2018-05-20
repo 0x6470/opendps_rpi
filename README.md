@@ -36,6 +36,7 @@ make -C dpsboot
 
 ## Making the configuration
 Sadly Johan's instructions can't be used here.
+
 Move the openocd.cfg (credits to: http://www.stm32duino.com/viewtopic.php?t=940#p10897) file provided into /root/opendps/openocd/scripts
 and wire your DPS like shown here
 <p align="center">
