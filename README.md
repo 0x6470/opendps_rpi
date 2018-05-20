@@ -12,11 +12,11 @@ I was surprised, when I found out, that I could easily install gcc-arm-none-eabi
 ```
 sudo apt-get install gcc-arm-none-eabi
 ```
-Now we need to install OpenOCD.
+Now we need to download OpenOCD.
 ```
 sudo git clone git://git.code.sf.net/p/openocd/code /root/openocd
 ```
-When done, we need to install it
+When done, we need to build it
 ```
 cd /root/openocd
 ./bootstrap
