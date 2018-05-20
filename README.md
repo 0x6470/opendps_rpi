@@ -2,7 +2,7 @@
 > excuse my English
 
 I firstly tried to use Johan Kanflo's tutorial to modify my DPS5005, but I stuck at the point, where I had to establish the OpenOCD connection. I got a "memory-access-error (core dumped)" error, which is why I tried the same on my Debian system (no VM), but this also failed. So spent roughly 4 hours to find a solution, but nothing helped me out. But now, after 6 days, I found a solution:
-### Using the Raspberry Pi 2's GPIOs
+## Using the Raspberry Pi 2's GPIOs
 ## Building OpenOCD
 I firstly installed the following components via apt:
 ```
