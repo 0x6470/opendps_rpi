@@ -45,7 +45,7 @@ and wire your DPS like shown here
 </p>
 and described in the openocd.cfg file.
 
-## Raspberry Pi 3 only: 
+## Raspberry Pi 3 only
 *Clone the raspberrypi2-native.cfg file in /root/opendps/openocd/scripts/interfaces to raspberrypi3-native.cfg and change*
 
 ```
