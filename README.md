@@ -43,7 +43,12 @@ and wire your DPS like shown here
 <img src="https://johan.kanflo.com/wp-content/uploads/2017/06/Screen-Shot-2017-07-29-at-01.30.02.png" alt="DPS5005's pins"/>
 </p>
 and described in the openocd.cfg file.
+Then power the DPS.
 
+```
+cd openocd/scripts
+openocd -f openocd.cfg
+```
 If you see "Info : stm32f1x.cpu: hardware has 6 breakpoints, 4 watchpoints", you made everything correct and can go on.
 From this point on you can follow Johan's instructions again, starting at the point "telnet localhost 4444":
 https://johan.kanflo.com/upgrading-your-dps5005/
