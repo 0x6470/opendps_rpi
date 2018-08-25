@@ -44,15 +44,19 @@ and wire your DPS like shown here
 <img src="https://johan.kanflo.com/wp-content/uploads/2017/06/Screen-Shot-2017-07-29-at-01.30.02.png" alt="DPS5005's pins"/>
 </p>
 and described in the openocd.cfg file.
-# Raspberry Pi 3 only: 
-Clone the raspberrypi2-native.cfg file in /root/opendps/openocd/scripts/interfaces to raspberrypi3-native.cfg and change 
+
+## Raspberry Pi 3 only: 
+*Clone the raspberrypi2-native.cfg file in /root/opendps/openocd/scripts/interfaces to raspberrypi3-native.cfg and change*
+
 ```
 bcm2835gpio_speed_coeffs 146203 36
 ```
-to
+*to*
 ```
 bcm2835gpio_speed_coeffs 194938 48
 ```
+*Change the content of openocd.cfg as shown in it.*
+
 
 Then power the DPS.
 
